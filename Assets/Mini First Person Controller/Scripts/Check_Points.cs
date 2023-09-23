@@ -33,6 +33,7 @@ public class Check_Points : MonoBehaviour
         float y = float.Parse(values[2].Trim(), CultureInfo.InvariantCulture.NumberFormat);
         float z = float.Parse(values[3].Trim(), CultureInfo.InvariantCulture.NumberFormat);
         return new Vector3(x, y, z);
+        
     }
     
     void Start()  
@@ -114,7 +115,7 @@ public class Check_Points : MonoBehaviour
         PlayerPrefs.SetInt("Money", 0   );
         PlayerPrefs.SetInt("Current_Lvl", 0);
         PlayerPrefs.Save();
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Game");
     }
 
 

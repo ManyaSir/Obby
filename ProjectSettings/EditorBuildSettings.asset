@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/COUNTER STIRIK.unity
     guid: b1de60ddb91ceb54a9cebcf8f29e407f
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
